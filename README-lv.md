@@ -14,8 +14,6 @@ Direktorija `modules` ir saistīta ar datu sagatavošanu pirms funkcijas
 izsaukuma. `test_validation.cc` ir viens testa fails, kas satur testus.
 [GTest](https://github.com/google/googletest) tiek izmantots testiem.
 
-## Lietojums
-
 ## Kompilācija uz Linux un MacOS
 
 Kompilācijai operētājsistēmā Linux ir nepieciešams cmake un

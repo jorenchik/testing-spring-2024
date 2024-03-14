@@ -16,8 +16,6 @@ Directory `modules` is concerned with preparation of data prior to the function
 call. `test_validation.cc` is a single test file that contain the tests.
 [GTest](https://github.com/google/googletest) is used for tests.
 
-## Usage
-
 ## Compilation on Linux and MacOS
 
 Compilation on Linux and MacOS requires cmake and CXX compiler (e.g., g++).
