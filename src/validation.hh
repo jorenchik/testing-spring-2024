@@ -20,8 +20,6 @@ enum class ValidationStatus {
     ActionValid,
 };
 
-std::string validation_status_to_string(ValidationStatus status);
-
 ValidationStatus
   validate_action(Player *actor, const Action *action, Room *room, std::vector<Event> *relatedEvents, Player *target);
 
