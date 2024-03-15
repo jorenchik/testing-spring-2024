@@ -38,7 +38,7 @@ You know what to do.
 ### ninja
 
 ```bash
-cmake -G Ninja -B
+cmake -G Ninja -B buld
 # or
 # cmake -G Ninja -B build -D CMAKE_CXX_COMPILER=g++-13 # MacOS
 cd build
