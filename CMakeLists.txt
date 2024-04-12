@@ -23,6 +23,8 @@ target_link_libraries(validation PRIVATE modules)
 target_include_directories(main PUBLIC "${PROJECT_BINARY_DIR}"
                                        "${PROJECT_SOURCE_DIR}/modules")
 
+target_link_libraries(test_validation PRIVATE validation)
+target_link_libraries(test_validation PRIVATE modules)
 target_include_directories(
   test_validation PUBLIC "${PROJECT_BINARY_DIR}"
                          "${PROJECT_SOURCE_DIR}/modules")
