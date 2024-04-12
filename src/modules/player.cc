@@ -4,6 +4,8 @@
 
 #include <string>
 
+Player::Player() {}
+
 Player::Player(uint32_t id, std::string username, Role role, PlayerStatus status):
     id(id),
     username(username),

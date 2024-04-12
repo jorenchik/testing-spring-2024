@@ -3,6 +3,9 @@
 #include <initializer_list>
 #include <vector>
 
+Role::Role(){
+}
+
 Role::Role(std::initializer_list<Action> actions): Role(std::vector<Action>(actions)) {
 }
 

@@ -18,5 +18,6 @@ struct Player {
     PlayerStatus status;
 
     Player(uint32_t id, std::string username, Role role, PlayerStatus status);
+    Player();
     bool operator==(const Player &other) const;
 };
