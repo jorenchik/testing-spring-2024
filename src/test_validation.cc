@@ -104,15 +104,6 @@ TEST(ValidateActionBranchDecisionTests, ReachesNoTopLevelReturn) {
     ASSERT_EQ(ValidationStatus::ActionValid, status);
 }
 
-// TEST(ValidateActionBranchDecisionTests, ReachesNoRoleReturn) {
-//     TestFixtures &fixtures = TestFixtures::getInstance();
-//     Role role = Role();
-//     ValidationStatus status s validate_action(
-//       &fixtures.player1, &fixtures.kill, &fixtures.room1, &fixtures.relatedEvents, &fixtures.player2);
-//     std::cout << ValidationStatusUtils::to_string(status) << std::endl;
-//     ASSERT_EQ(ValidationStatus::NoRole, status);
-// }
-
 int main(int argc, char *argv[]) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
